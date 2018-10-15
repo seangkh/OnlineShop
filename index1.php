@@ -1,9 +1,24 @@
+<?php
+$GLOBALS['xml'] = simplexml_load_file("lang/en.xml") or die("Error: Cannot create object");
+
+function getString($lang_key) {
+  foreach ($GLOBALS['xml']->children() as $entry) {
+    if (strcmp($entry['key'], $lang_key) === 0) {
+      return $entry;
+    }
+  }
+  return $lang_key;
+}
+ ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Online Shop</title>
+    <title><?php echo getString('title'); ?>
+    </title>
+
     <link rel="icon" href="img/Book-icon.png">
     <link rel="stylesheet" type="text/css" href="css/style1.css">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -32,7 +47,7 @@
       <!-- Menubar -->
       <div id='cssmenu'>
       <ul>
-         <li><a href='index.php'>Home</a></li>
+         <li><a href='index.php'><?php echo getString('home'); ?></a></li>
          <li class='active'><a href='#'>Products</a>
             <ul>
                <li><a href='#'>Product 1</a>
