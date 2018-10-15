@@ -468,11 +468,11 @@ article{
 
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: #ffffff;
   color: black;
   text-align: center;
@@ -480,26 +480,28 @@ footer {
 
 }
 
-.col1{
+.col1, .col2{
   width: 33.33%;
   float: left;
   clear: fixed;
 }
 #second-footer{
-  position: fixed;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  margin: 5px;
   border-top: 1px solid black;
 }
 #second-footer span{
   text-align: center;
+
 }
 
 footer ul {
   list-style: none;
-  margin-left: 20px;
-  margin-top: 10px;
-  padding: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px;
+
 
 }
 
@@ -507,14 +509,19 @@ footer ul li a{
   text-decoration: none;
   display: block;
   padding: 5px;
+  font-size: 14px;
 }
 
 footer ul li a:hover{
   background: #f7f7f7;
-  border: 1px solid #e1e1e1;
+/*  border: 1px solid #e1e1e1;*/
   border-radius: 5px;
 }
 
 .phone{
-  margin-top: 10px;
+  margin-top: 5px;
+  font-size: 13px;
+  float: left;
+  clear: fixed;
+
 }

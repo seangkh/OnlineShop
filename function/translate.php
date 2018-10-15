@@ -4,8 +4,7 @@ function t($key) {
   global $language;
   $texts = array(
       'page' => array(
-          'de' => 'Seite',
-          'fr' => 'Page',
+          'de' => 'Seite',          
           'en' => 'Page'
       ),
       'content' => array(
