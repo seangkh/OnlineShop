@@ -24,7 +24,7 @@
               <li><a href="php/en.php"><img src="img/cart.png" /></a></li>
               <li><a href="php/en.php"><img src="img/en.png" /></a></li>
               <li><a href="php/de.php"><img src="img/de.png"/></a></li>
-              <li><a href="php/login.php"><img src="img/login.jpg"/></a></li>
+              <li><a href="html/login.html"><img src="img/login.jpg"/></a></li>
             </ul>
           </div>
       </figure>

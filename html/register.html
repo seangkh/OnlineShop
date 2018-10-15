@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register Account</title>
+    <!-- for the links file -->
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+
+  </head>
+  <body>
+    <figure>
+      <form class="register" name="register" action="register.php" method="post">
+        <fieldset>
+          <legend>Register Account</legend>
+          <div class="control-re">
+            <label for="name" style="margin-right=10px;">First Name:</label>
+            <input id="fname" type="text" name="fname" value="" required><br>
+            <label for="faname">Family Name:</label>
+            <input id="faname" type="text" name="faname" value="" name="fname" value="" required><br>
+          </div>
+          <div class="email-re">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" value="" placeholder="Email Address" required>
+          </div>
+
+          <div class="date-re">
+            <label for="birthdate">Date of Birth:</label>
+            <input id="date" type="text" name="date" value="" placeholder="DD" required>
+            <input id="date" type="text" name="date" value="" placeholder="MM" required>
+            <input id="date" type="text" name="date" value="" placeholder="JJJJ" required>
+          </div>
+
+          <div class="gender-re">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="male">Male<br><br>
+          </div>
+          <div class="password-re">
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password" value="" required><br>
+            <label for="password">Confirm-Password:</label>
+            <input id="password" type="password" name="password" value="" required>
+          </div>
+          <div class="submit-re">
+            <input type="submit" name="submit" value="Register">
+            <Input type="reset" class="reset" value="Clear">
+
+          </div>
+          <div id="back-re">
+            <a href="../home.php"> Go Back </a>
+          </div>
+        </div>
+
+        </fieldset>
+
+      </form>
+    </figure>
+
+  </body>
+</html>

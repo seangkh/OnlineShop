@@ -1,3 +1,3 @@
  #my Online Shop
- This tis the Online Shop for the project WorkShop
- 
+ This Online Shop for the project WorkShop.
+ This Web, I have use the HTML,CSS,PHP,JS,DB
