@@ -1,19 +1,14 @@
 <!--This page for Deutsch Sprache  -->
 
-
 <?php
 
-  $lang = $_GET['lang'];
-  $langArray = array('en','de' );
-  $found = false;
-/* for test the condition */
-  if(in_array($lang,$langArray))
-      $found = true;
+    function t($key){
+      global $language;
+      $texts = array(
+          'page' => array()
 
 
-  if(!$found)
-
-
-
+      );
+    }
 
  ?>

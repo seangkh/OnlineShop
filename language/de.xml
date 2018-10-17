@@ -1,10 +1,11 @@
-<?<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language lang="de">
 
-    <entry key="title"> Online Shop</entry>
-    <entry key="home"> Home</entry>
-    <entry key=""> Online Shop</entry>
-    <entry key="title"> Online Shop</entry>
+    <cssmenu key="title"> Online Shop</cssmenu>
+    <cssmenu key="home"> Home</cssmenu>
+    <cssmenu key="product"> Produkts</cssmenu>
+    <cssmenu key="About"> Über uns</cssmenu>
+    <cssmenu key="contact"> Kontakt uns</cssmenu>
 
 
 </language>
